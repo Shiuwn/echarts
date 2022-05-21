@@ -127,7 +127,7 @@ class Scheduler {
         this.ecInstance = ecInstance;
         this.api = api;
 
-        // Fix current processors in case that in some rear cases that
+        // Fix current processors in case that in some rare cases that
         // processors might be registered after echarts instance created.
         // Register processors incrementally for a echarts instance is
         // not supported by this stream architecture.
